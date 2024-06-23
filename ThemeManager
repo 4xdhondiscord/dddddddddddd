@@ -7,9 +7,9 @@ local ThemeManager = {} do
 	ThemeManager.BuiltInThemes = {
 		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"BFBFBF","MainColor":"0F0F0F","AccentColor":"929667","SelectedTabColor":"101010","BackgroundColor":"1B1B1B","OutlineColor":"0B0B0B"}') },
 		['Bloody.hell'] 		= { 2, httpService:JSONDecode('{"FontColor":"919191","MainColor":"000000","AccentColor":"420f11","SelectedTabColor":"0a0a0a","BackgroundColor":"000000","OutlineColor":"0b0b0b"}') },
-		['Antarcita.to'] 		= { 3, httpService:JSONDecode('{"FontColor":"000000","MainColor":"101010","AccentColor":"92ABB9","SelectedTabColor":"0a0a0a","BackgroundColor":"101010","OutlineColor":"0b0b0b"}') },
-		['misery.cc'] 	= { 4, httpService:JSONDecode('{"FontColor":"000000","MainColor":"0f0f11","AccentColor":"fc5ef0","SelectedTabColor":"1c1e20","BackgroundColor":"0f0f11","OutlineColor":"000000"}') },
-		['endless.solutions'] 	= { 5, httpService:JSONDecode('{"FontColor":"000000","MainColor":"141414","AccentColor":"3d3b55","SelectedTabColor":"1e1e1e","BackgroundColor":"141414","OutlineColor":"000000"}') },
+		['Antarcita.to'] 		= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"101010","AccentColor":"92ABB9","SelectedTabColor":"0a0a0a","BackgroundColor":"101010","OutlineColor":"0b0b0b"}') },
+		['misery.cc'] 	= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"0f0f11","AccentColor":"fc5ef0","SelectedTabColor":"1c1e20","BackgroundColor":"0f0f11","OutlineColor":"000000"}') },
+		['endless.solutions'] 	= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"141414","AccentColor":"3d3b55","SelectedTabColor":"1e1e1e","BackgroundColor":"141414","OutlineColor":"000000"}') },
 		['white.black'] 	        = { 6, httpService:JSONDecode('{"FontColor":"c5c5c5","MainColor":"0F0F0F","AccentColor":"acacac","SelectedTabColor":"1e1e1e","BackgroundColor":"141414","OutlineColor":"000000"}') },
 	}
 
